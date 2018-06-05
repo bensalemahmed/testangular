@@ -11,12 +11,14 @@ import { HttpModule } from '@angular/http';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import { MenuComponent } from './menu/menu.component';
 import { TodosComponent } from './todos/todos.component';
+import { SlaiderComponent } from './slaider/slaider.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    TodosComponent
+    TodosComponent,
+    SlaiderComponent
   ],
   imports: [
     BrowserModule,
